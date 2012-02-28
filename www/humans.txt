@@ -1,0 +1,13 @@
+/* TEAM */
+
+	John Doe
+		site		: http://www.example.com
+		twitter		: https://twitter.com/johndoe
+		location	: Bratislava, Slovakia
+
+
+
+/* SITE */
+	Standards		: HTML5, CSS3
+	Components		: Twitter Bootstrap 2.0, Modernizr 2.5, jQuery 1.7
+	Software		: Nette Framework 2.0

@@ -1,0 +1,13 @@
+/* TEAM */
+
+	Igor Hlina (srigi)
+		site		: http://srigi.sk/
+		twitter		: https://twitter.com/srigi
+		location	: Bratislava, Slovakia
+
+
+
+/* SITE */
+	Standards		: HTML5, CSS3
+	Components		: Twitter Bootstrap 2.0, Modernizr 2.5, jQuery 1.7
+	Software		: Apache 2 (mod_rewrite, mod_include, mod_expires)

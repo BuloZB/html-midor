@@ -1,0 +1,11 @@
+{layout '@_wrap.latte'}
+
+
+{block main}
+	<div id="sidebar" class="span3">
+		{block sidebar}{/block}
+	</div><!-- #sidebar -->
+
+	<div id="content" class="span9">
+		{include #content}
+	</div><!-- #content -->

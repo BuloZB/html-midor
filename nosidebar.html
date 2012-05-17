@@ -8,12 +8,24 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width">
 	<meta name="description" content="">
-	<meta name="author" content="Igor Hlina">
+	<meta name="author" content="/humans.txt">
 
 	<title>Hello Moto! :: Midor</title>
 
+	<!-- build-css :minimize :combine _libs/bootstrap -->
+	<link rel="stylesheet" href="css/_libs/bootstrap.css">
+	<link rel="stylesheet" href="css/_libs/bootstrap-middleman.css">
+	<link rel="stylesheet" href="css/_libs/bootstrap-responsive.css">
+	<!-- /build-css -->
+
+	<!-- build-css :minimize :combine ./main -->
+	<link rel="stylesheet" href="css/main/base.css">
+	<link rel="stylesheet" href="css/main/layout.css">
+	<link rel="stylesheet" href="css/main/module.css">
+	<link rel="stylesheet" href="css/main/state.css">
+	<!-- /build-css -->
+
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="css/main.combined.001.css">
 	<script src="js/_libs/modernizr-2.5.3.min.js"></script>
 </head>
 <body>
@@ -21,7 +33,7 @@
 	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
-				<a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
+				<a  class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -33,8 +45,9 @@
 					<ul class="nav">
 						<li><a href="index.html">home</a></li>
 						<li class="active"><a href="nosidebar.html">nosidebar</a></li>
+						<li><a href="appcanvas.html">App canvas</a></li>
 						<li class="dropdown">
-							<a data-toggle="dropdown" class="dropdown-toggle" href="#">dropdown menu <b class="caret"></b></a>
+							<a class="dropdown-toggle" href="#" data-toggle="dropdown">dropdown menu <b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li><a href="#">LED</a></li>
 								<li><a href="#">OLED</a></li>
@@ -71,12 +84,12 @@
 						<div class="span4">
 							<img src="images/glyphicons_042_group.png" class="bs-icon">
 							<h2>Built for and by nerds</h2>
-							<p>Like you, we love building awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>
+							<p>Like you, <a href="http://www.example.com">we love building</a> awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>
 						</div>
 						<div class="span4">
 							<img src="images/glyphicons_079_podium.png" class="bs-icon">
 							<h2>For all skill levels</h2>
-							<p>Bootstrap is designed to help people of all skill levels&mdash;designer or developer, huge nerd or early beginner. Use it as a complete kit or use to start something more complex.</p>
+							<p>Bootstrap is <a href=="fh24rhfi4h0guw">designed to help</a> people of all skill levels&mdash;designer or developer, huge nerd or early beginner. Use it as a complete kit or use to start something more complex.</p>
 						</div>
 						<div class="span4">
 							<img src="images/glyphicons_163_iphone.png" class="bs-icon">
@@ -140,15 +153,19 @@
 					</div><!-- .row -->
 				</div><!-- #content -->
 			</div><!-- .row -->
-		</div>
+		</div><!-- #main -->
 
 		<footer>
 			<p>2012 &copy; <a href="https://twitter.com/srigi">srigi</a></p>
 		</footer>
-	</div> <!-- .container#main -->
+	</div> <!-- .container -->
 
 
-	<script src="js/main.combined.001.js"></script>
+	<script src="js/_libs/jquery-1.7.2.min.js"></script>
+	<!-- build-js :minimize :combine main -->
+	<script src="js/_libs/bootstrap/collapse.js"></script>
+	<script src="js/_libs/bootstrap/dropdown.js"></script>
+	<!-- /build-js -->
 
 </body>
 </html>

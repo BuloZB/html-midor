@@ -1,0 +1,58 @@
+/*
+ *  LAYOUT rules
+ *   put your styles here...
+ *
+ */
+@media (min-width: 768px) {
+  html, body {
+    overflow-y: hidden; }
+
+  body > [class|="container"] {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 0;
+    padding-right: 0; }
+    body > [class|="container"] > [class|="row"] {
+      height: 100%; } }
+@media (min-width: 980px) {
+  body > [class|="container"] {
+    position: absolute;
+    top: 40px; } }
+/* =============================================================================
+ *  .navbar
+ * ============================================================================= */
+.navbar.navbar-fixed-top .navbar-inner {
+  overflow-y: auto;
+  position: relative;
+  z-index: 10; }
+  .navbar.navbar-fixed-top .navbar-inner .nav-collapse.in {
+    overflow-y: auto; }
+
+/* =============================================================================
+ *  #content
+ * ============================================================================= */
+#content {
+  position: relative; }
+
+@media (min-width: 768px) {
+  #content {
+    height: 100%;
+    overflow-y: auto;
+    padding-right: 2.564%; } }
+/* =============================================================================
+ *  #sidebar
+ * ============================================================================= */
+#sidebar {
+  position: relative; }
+
+@media (min-width: 768px) {
+  #sidebar {
+    height: 100%; }
+    #sidebar .sidebar-content {
+      bottom: 29px;
+      overflow-y: auto;
+      position: absolute;
+      top: 0; } }

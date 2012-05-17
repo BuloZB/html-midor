@@ -1,0 +1,192 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="">
+	<meta name="author" content="/humans.txt">
+
+	<title>Hello Moto! :: Midor</title>
+
+	<!-- build :css, :minimize, :combine => "_libs/bootstrap.css" -->
+	<link rel="stylesheet" href="css/_libs/bootstrap.css">
+	<link rel="stylesheet" href="css/_libs/bootstrap-middleman.css">
+	<link rel="stylesheet" href="css/_libs/bootstrap-responsive.css">
+	<!-- /build -->
+
+	<!-- build :css, :minimize, :combine => "appcanvas.css" -->
+	<link rel="stylesheet" href="css/appcanvas/base.css">
+	<link rel="stylesheet" href="css/appcanvas/layout.css">
+	<link rel="stylesheet" href="css/appcanvas/module.css">
+	<link rel="stylesheet" href="css/appcanvas/state.css">
+	<!-- /build-css -->
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<script src="js/_libs/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+
+				<a class="brand" href="index.html">Midor</a>
+
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li><a href="index.html">home</a></li>
+						<li><a href="nosidebar.html">nosidebar</a></li>
+						<li class="active"><a href="appcanvas.html">App canvas</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" href="#" data-toggle="dropdown">dropdown menu <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">LED</a></li>
+								<li><a href="#">OLED</a></li>
+								<li><a href="#">Plasma</a></li>
+								<li class="divider"></li>
+								<li class="nav-header">special types</li>
+								<li><a href="#">3D</a></li>
+							</ul>
+						</li>
+					</ul>
+
+					<ul class="nav pull-right">
+						<li><a href="#">logout</a></li>
+					</ul>
+
+					<form action="" class="navbar-search pull-right">
+						<input type="text" placeholder="Search" class="search-query span2">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div><!-- .navbar -->
+
+
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div id="sidebar" class="span3">
+				<div class="sidebar-content">
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non orci lorem. Nunc a purus sit amet nisl commodo facilisis in id eros. Sed fermentum turpis sed metus faucibus ac viverra metus scelerisque. Nam porta, nisi nec rutrum consectetur, metus leo vulputate orci, quis ornare diam nisl et leo. Fusce sed mi tellus, in molestie ipsum. Duis neque justo, pretium vitae adipiscing a, adipiscing a nisi. Duis placerat enim et quam sagittis consequat. Donec a turpis vitae velit fringilla malesuada eget ullamcorper neque. Quisque nec dignissim turpis.</p>
+				</div>
+
+				<div class="sidemenu">
+				</div>
+			</div><!-- #sidebar -->
+
+			<div id="content" role="main" class="span9">
+				<div class="page-header">
+					<h1>Typography <small>Headings, paragraphs, lists, and other inline type elements</small></h1>
+				</div>
+
+				<h2>Headings &amp; body copy</h2>
+				<div class="row-fluid">
+					<div class="span4">
+						<h3>Typographic scale</h3>
+						<p>The entire typographic grid is based on two Less variables in our variables.less file: <code>@baseFontSize</code> and <code>@baseLineHeight</code>. The first is the base font-size used throughout and the second is the base line-height.</p>
+						<p>We use those variables, and some math, to create the margins, paddings, and line-heights of all our type and more.</p>
+					</div>
+					<div class="span4">
+						<h3>Example body text</h3>
+						<p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>
+					</div>
+					<div class="span4">
+						<div class="well">
+							<h1>h1. Heading 1</h1>
+							<h2>h2. Heading 2</h2>
+							<h3>h3. Heading 3</h3>
+							<h4>h4. Heading 4</h4>
+							<h5>h5. Heading 5</h5>
+							<h6>h6. Heading 6</h6>
+						</div>
+					</div>
+				</div>
+
+				<h2>Lists</h2>
+				<div class="row-fluid">
+					<div class="span4">
+						<h3>Unordered</h3>
+						<p><code>&lt;ul&gt;</code></p>
+						<ul>
+							<li>Lorem ipsum dolor sit amet</li>
+							<li>Consectetur adipiscing elit</li>
+							<li>Integer molestie lorem at massa</li>
+							<li>Facilisis in pretium nisl aliquet</li>
+							<li>Nulla volutpat aliquam velit
+								<ul>
+									<li>Phasellus iaculis neque</li>
+									<li>Purus sodales ultricies</li>
+									<li>Vestibulum laoreet porttitor sem</li>
+									<li>Ac tristique libero volutpat at</li>
+								</ul>
+							</li>
+							<li>Faucibus porta lacus fringilla vel</li>
+							<li>Aenean sit amet erat nunc</li>
+							<li>Eget porttitor lorem</li>
+						</ul>
+					</div>
+					<div class="span4">
+						<h3>Unstyled</h3>
+						<p><code>&lt;ul class="unstyled"&gt;</code></p>
+						<ul class="unstyled">
+							<li>Lorem ipsum dolor sit amet</li>
+							<li>Consectetur adipiscing elit</li>
+							<li>Integer molestie lorem at massa</li>
+							<li>Facilisis in pretium nisl aliquet</li>
+							<li>Nulla volutpat aliquam velit
+								<ul>
+									<li>Phasellus iaculis neque</li>
+									<li>Purus sodales ultricies</li>
+									<li>Vestibulum laoreet porttitor sem</li>
+									<li>Ac tristique libero volutpat at</li>
+								</ul>
+							</li>
+							<li>Faucibus porta lacus fringilla vel</li>
+							<li>Aenean sit amet erat nunc</li>
+							<li>Eget porttitor lorem</li>
+						</ul>
+					</div>
+					<div class="span4">
+						<h3>Ordered</h3>
+						<p><code>&lt;ol&gt;</code></p>
+						<ol>
+							<li>Lorem ipsum dolor sit amet</li>
+							<li>Consectetur adipiscing elit</li>
+							<li>Integer molestie lorem at massa</li>
+							<li>Facilisis in pretium nisl aliquet</li>
+							<li>Nulla volutpat aliquam velit</li>
+							<li>Faucibus porta lacus fringilla vel</li>
+							<li>Aenean sit amet erat nunc</li>
+							<li>Eget porttitor lorem</li>
+						</ol>
+					</div>
+				</div><!-- /row -->
+
+				<footer>
+					2012 &copy; srigi
+				</footer>
+			</div><!-- #content -->
+		</div><!-- .row -->
+	</div><!-- .container-fluid -->
+
+
+	<script src="js/_libs/jquery-1.7.2.min.js"></script>
+
+	<!-- build :js, :minimize, :combine => "appcanvas.js" -->
+	<script src="js/_libs/bootstrap/collapse.js"></script>
+	<script src="js/_libs/bootstrap/dropdown.js"></script>
+	<script src="js/appcanvas/main.js"></script>
+	<!-- /build -->
+
+</body>
+</html>

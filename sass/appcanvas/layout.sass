@@ -1,0 +1,82 @@
+@import _common
+
+/*
+ *
+ *  LAYOUT rules
+ *   put your styles here...
+ *
+ *
+
+
+
+@media (min-width: 768px)
+  html, body
+    overflow-y: hidden
+
+  body > [class|="container"]
+    position: absolute
+    top: $navbarHeight
+    bottom: 0
+    left: 0
+    right: 0
+    padding:
+      left: 0
+      right: 0
+
+    & > [class|="row"]
+      height: 100%
+
+@media (min-width: 980px)
+  body > [class|="container"]
+    position: absolute
+    top: $navbarHeightDesktop
+
+
+
+/* =============================================================================
+ *  .navbar
+ * =============================================================================
+
+.navbar.navbar-fixed-top .navbar-inner
+  overflow-y: auto
+  position: relative
+  z-index: 10
+
+  .nav-collapse.in
+    overflow-y: auto
+
+
+
+/* =============================================================================
+ *  #content
+ * =============================================================================
+
+#content
+  position: relative
+
+
+@media (min-width: 768px)
+  #content
+    height: 100%
+    overflow-y: auto
+    padding-right: 2.5641%
+
+
+
+/* =============================================================================
+ *  #sidebar
+ * =============================================================================
+
+#sidebar
+  position: relative
+
+
+@media (min-width: 768px)
+  #sidebar
+    height: 100%
+
+    .sidebar-content
+      bottom: 29px
+      overflow-y: auto
+      position: absolute
+      top: 0

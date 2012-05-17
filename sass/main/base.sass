@@ -1,0 +1,56 @@
+@import _common
+
+/*
+ *
+ *  BASE rules
+ *   put your styles here...
+ *
+ *
+
+/* =============================================================================
+ *  Base
+ * =============================================================================
+
+html, button, input, select, textarea
+  color: $fgColor
+
+body
+  background-color: $bgColor
+  line-height: 1.5
+
+
+\::-moz-selection
+  background: $selectionBg
+  color: $selectionFg
+  text-shadow: none
+\::selection
+  background: $selectionBg
+  color: $selectionFg
+  text-shadow: none
+
+
+
+/* =============================================================================
+ *  Links
+ * =============================================================================
+
+a
+  color: $link
+
+  &:visited
+    color: $linkVisited
+  &:hover
+    color: $linkHover
+  &:focus
+    outline: thin dotted
+  &:hover, &:active
+    outline: 0
+
+
+
+/* =============================================================================
+ *  Typography
+ * =============================================================================
+
+code, pre
+  font-family: Monaco, "Andale Mono", "Courier New", monospace

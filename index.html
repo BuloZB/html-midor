@@ -12,18 +12,18 @@
 
 	<title>Hello Moto! :: Midor</title>
 
-	<!-- build-css :minimize :combine _libs/bootstrap -->
+	<!-- build :css, :minimize, :combine => "_libs/bootstrap.css" -->
 	<link rel="stylesheet" href="css/_libs/bootstrap.css">
 	<link rel="stylesheet" href="css/_libs/bootstrap-middleman.css">
 	<link rel="stylesheet" href="css/_libs/bootstrap-responsive.css">
-	<!-- /build-css -->
+	<!-- /build -->
 
-	<!-- build-css :minimize :combine ./main -->
+	<!-- build :css, :minimize, :combine => "main.css" -->
 	<link rel="stylesheet" href="css/main/base.css">
 	<link rel="stylesheet" href="css/main/layout.css">
 	<link rel="stylesheet" href="css/main/module.css">
 	<link rel="stylesheet" href="css/main/state.css">
-	<!-- /build-css -->
+	<!-- /build -->
 
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<script src="js/_libs/modernizr-2.5.3.min.js"></script>
@@ -177,10 +177,11 @@
 
 
 	<script src="js/_libs/jquery-1.7.2.min.js"></script>
-	<!-- build-js :minimize :combine main -->
+
+	<!-- build :js, :minimize, :combine => "main.js" -->
 	<script src="js/_libs/bootstrap/collapse.js"></script>
 	<script src="js/_libs/bootstrap/dropdown.js"></script>
-	<!-- /build-js -->
+	<!-- /build -->
 
 </body>
 </html>

@@ -1,0 +1,186 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="">
+	<meta name="author" content="/humans.txt">
+
+	<title>Hello Moto! :: Midor</title>
+
+	<!-- build :css, :minimize, :combine => "_libs/bootstrap.css" -->
+	<link rel="stylesheet" href="css/_libs/bootstrap.css">
+	<link rel="stylesheet" href="css/_libs/bootstrap-responsive.css">
+	<!-- /build -->
+
+	<!-- build :css, :minimize, :combine => "main.css" -->
+	<link rel="stylesheet" href="css/nofixed/base.css">
+	<link rel="stylesheet" href="css/nofixed/layout.css">
+	<link rel="stylesheet" href="css/nofixed/module.css">
+	<link rel="stylesheet" href="css/nofixed/state.css">
+	<!-- /build -->
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<script src="js/_libs/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+<div class="container">
+	<div id="main">
+
+		<div class="navbar">
+			<div class="navbar-inner">
+				<a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+
+				<a class="brand" href="index.html">Midor</a>
+
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li><a href="index.html">home</a></li>
+						<li><a href="nosidebar.html">nosidebar</a></li>
+						<li class="active"><a href="nofixed.html">nofixed navbar</a></li>
+						<li><a href="appcanvas.html">app canvas</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" href="#" data-toggle="dropdown">dropdown menu <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">LED</a></li>
+								<li><a href="#">OLED</a></li>
+								<li><a href="#">Plasma</a></li>
+								<li class="divider"></li>
+								<li class="nav-header">special types</li>
+								<li><a href="#">3D</a></li>
+							</ul>
+						</li>
+					</ul>
+
+					<ul class="nav pull-right">
+						<li><a href="#">logout</a></li>
+					</ul>
+
+					<form action="" class="navbar-search pull-right">
+						<input type="text" placeholder="Search" class="search-query span2">
+					</form>
+				</div>
+			</div>
+		</div><!-- .navbar -->
+
+
+		<div class="row">
+			<div id="sidebar" class="span3">
+				<div class="well">
+					<ul class="nav nav-list">
+						<li class="nav-header">List header</li>
+						<li class="active"><a href="#"><i class="icon-white icon-home"></i> Home</a></li>
+						<li><a href="#"><i class="icon-book"></i> Library</a></li>
+						<li><a href="#"><i class="icon-pencil"></i> Applications</a></li>
+						<li class="nav-header">Another list header</li>
+						<li><a href="#"><i class="icon-user"></i> Profile</a></li>
+						<li><a href="#"><i class="icon-cog"></i> Settings</a></li>
+						<li><a href="#"><i class="icon-flag"></i> Help</a></li>
+					</ul>
+				</div>
+			</div><!-- #sidebar -->
+
+			<div id="content" role="main" class="span9">
+				<div class="page-header">
+					<h1>Hello Moto! <small>welcome to application</small></h1>
+				</div>
+
+				<div class="row">
+					<div class="span3">
+						<img src="images/glyphicons_042_group.png" class="bs-icon">
+						<h2>Built for and by nerds</h2>
+						<p>Like you, <a href="http://www.example.com">we love building</a> awesome products on the web. We love it so much, we decided to help people just like us do it easier, better, and faster. Bootstrap is built for you.</p>
+					</div>
+					<div class="span3">
+						<img src="images/glyphicons_079_podium.png" class="bs-icon">
+						<h2>For all skill levels</h2>
+						<p>Bootstrap is <a href=="fh24rhfi4h0guw">designed to help</a> people of all skill levels&mdash;designer or developer, huge nerd or early beginner. Use it as a complete kit or use to start something more complex.</p>
+					</div>
+					<div class="span3">
+						<img src="images/glyphicons_163_iphone.png" class="bs-icon">
+						<h2>Cross-everything</h2>
+						<p>Originally built with only modern browsers in mind, Bootstrap has evolved to include support for all major browsers (even IE7!) and, with Bootstrap 2, tablets and smartphones, too.</p>
+					</div>
+				</div><!-- .row -->
+
+				<div class="row">
+					<div class="span3">
+						<img src="images/glyphicons_155_show_thumbnails.png" class="bs-icon">
+						<h2>12-column grid</h2>
+						<p>Grid systems aren't everything, but having a durable and flexible one at the core of your work can make development much simpler. Use our built-in grid classes or roll your own.</p>
+					</div>
+					<div class="span3">
+						<img src="images/glyphicons_214_resize_small.png" class="bs-icon">
+						<h2>Responsive design</h2>
+						<p>With Bootstrap 2, we've gone fully responsive. Our components are scaled according to a range of resolutions and devices to provide a consistent experience, no matter what.</p>
+					</div>
+					<div class="span3">
+						<img src="images/glyphicons_266_book_open.png" class="bs-icon">
+						<h2>Styleguide docs</h2>
+						<p>Unlike other front-end toolkits, Bootstrap was designed first and foremost as a styleguide to document not only our features, but best practices and living, coded examples.</p>
+					</div>
+				</div><!-- .row -->
+
+				<div class="row">
+					<div class="span3">
+						<img src="images/glyphicons_082_roundabout.png" class="bs-icon">
+						<h2>Growing library</h2>
+						<p>Despite being only 10kb (gzipped), Bootstrap is one of the most complete front-end toolkits out there with dozens of fully functional components ready to be put to use.</p>
+					</div>
+					<div class="span3">
+						<img src="images/glyphicons_009_magic.png" class="bs-icon">
+						<h2>Custom jQuery plugins</h2>
+						<p>What good is an awesome design component without easy-to-use, proper, and extensible interactions? With Bootstrap, you get custom-built jQuery plugins to bring your projects to life.</p>
+					</div>
+					<div class="span3">
+						<img src="images/less-small.png" class="bs-icon">
+						<h2>Built on LESS</h2>
+						<p>Where vanilla CSS falters, LESS excels. Variables, nesting, operations, and mixins in LESS makes coding CSS faster and more efficient with minimal overhead.</p>
+					</div>
+				</div><!-- .row -->
+
+				<div class="row">
+					<div class="span3">
+						<img src="images/icon-html5.png" class="small-bs-icon">
+						<h3>HTML5</h3>
+						<p>Built to support new HTML5 elements and syntax.</p>
+					</div>
+					<div class="span3">
+						<img src="images/icon-css3.png" class="small-bs-icon">
+						<h3>CSS3</h3>
+						<p>Progressively enhanced components for ultimate style.</p>
+					</div>
+					<div class="span3">
+						<img src="images/icon-github.png" class="small-bs-icon">
+						<h3>Open-source</h3>
+						<p>Built for and maintained by the community via <a href="https://github.com">GitHub</a>.</p>
+					</div>
+				</div><!-- .row -->
+			</div><!-- #content -->
+		</div><!-- .row -->
+	</div><!-- #main -->
+
+
+	<footer>
+		<p>2012 &copy; <a href="https://twitter.com/srigi">srigi</a></p>
+	</footer>
+</div> <!-- .container -->
+
+
+<script src="js/_libs/jquery-1.7.2.min.js"></script>
+
+<!-- build :js, :minimize, :combine => "main.js" -->
+<script src="js/_libs/bootstrap/collapse.js"></script>
+<script src="js/_libs/bootstrap/dropdown.js"></script>
+<!-- /build -->
+
+</body>
+</html>

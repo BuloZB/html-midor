@@ -1,0 +1,44 @@
+/*
+ *  BASE rules
+ *   put your styles here...
+ *
+ */
+/* =============================================================================
+ *  Base
+ * ============================================================================= */
+html, button, input, select, textarea {
+  color: #333333; }
+
+body {
+  background-color: #eeeeee;
+  line-height: 1.5; }
+
+::-moz-selection {
+  background: #d5d800;
+  color: #333333;
+  text-shadow: none; }
+
+::selection {
+  background: #d5d800;
+  color: #333333;
+  text-shadow: none; }
+
+/* =============================================================================
+ *  Links
+ * ============================================================================= */
+a {
+  color: #0088cc; }
+  a:visited {
+    color: #63bce9; }
+  a:hover {
+    color: #006699; }
+  a:focus {
+    outline: thin dotted; }
+  a:hover, a:active {
+    outline: 0; }
+
+/* =============================================================================
+ *  Typography
+ * ============================================================================= */
+code, pre {
+  font-family: Monaco, "Andale Mono", "Courier New", monospace; }

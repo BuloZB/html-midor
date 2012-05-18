@@ -1,0 +1,86 @@
+/*
+ *  MODULE rules
+ *   put your styles here...
+ *
+ */
+/* ====================================
+ *  #main
+ * ==================================== */
+#main {
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  -ms-border-radius: 0 0 6px 6px;
+  -o-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  padding: 10px; }
+
+/* ====================================
+ *  .page-header
+ * ==================================== */
+.page-header {
+  background-color: #f5f5f5;
+  padding: 20px; }
+  #main > .page-header {
+    margin: -10px -10px 10px; }
+
+/* =============================================================================
+ *  navbar
+ * ============================================================================= */
+.navbar {
+  margin: -10px -10px 20px; }
+  .navbar .navbar-inner {
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #83aee2), color-stop(100%, #04428e));
+    background-image: -webkit-linear-gradient(#83aee2, #04428e);
+    background-image: -moz-linear-gradient(#83aee2, #04428e);
+    background-image: -o-linear-gradient(#83aee2, #04428e);
+    background-image: -ms-linear-gradient(#83aee2, #04428e);
+    background-image: linear-gradient(#83aee2, #04428e);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    min-height: 64px;
+    padding-left: 40px; }
+  .navbar .brand {
+    color: #eeeeee;
+    font-size: 24px;
+    padding-top: 18px;
+    padding-right: 40px; }
+  .navbar .nav > li > a {
+    color: #e0e0e0;
+    font-size: 115%;
+    padding-top: 20px;
+    padding-bottom: 10px; }
+  .navbar .nav > li.active a {
+    background-color: transparent;
+    color: #e8ff77; }
+
+/* =============================================================================
+ *  navbar-search
+ * ============================================================================= */
+.navbar-search {
+  margin-top: 18px; }
+  .navbar-search .search-query {
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    background-color: #e0e0e0;
+    border: 1px solid #5e0207;
+    color: #333333; }
+    .navbar-search .search-query:-moz-placeholder {
+      color: #777777; }
+
+/* ====================================
+ *  footer
+ * ==================================== */
+footer {
+  padding: 1em 0 2em; }
+  footer p {
+    text-align: center; }
